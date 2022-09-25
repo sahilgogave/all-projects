@@ -1,0 +1,51 @@
+.home__contaner{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home__main{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+#eyes{
+    position: absolute;
+}
+
+.eye img{
+    position: absolute;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1080px) {
+    .home__contaner{
+        display:none;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .home__contaner{
+        display:none;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .home__contaner{
+        display:none;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .home__contaner{
+        display:none;
+    }
+  }
+  
