@@ -10,6 +10,8 @@ import Quiz from '../assets/quiz.png'
 import StupidBlog from '../assets/stupidblog.png'
 import TicTacToe from '../assets/tictactoe.png'
 import Clock from '../assets/clock.png'
+import TODO from '../assets/todo.png'
+
 
 const PortfolioData =[
     {
@@ -46,6 +48,14 @@ const PortfolioData =[
     },
     {
         id:5,
+        image:TODO,
+        title:"A To Do List",
+        desc:'todo list app containing add,search and delete functionality',
+        github :'https://github.com/sahilgogave/ToDoList',
+        demo :'https://sahilgogave.github.io/ToDoList/'
+    },
+    {
+        id:6,
         image:StupidBlog,
         title:"Stupid Blog",
         desc:'Made using React app connects to self made API in Node JS',
@@ -53,7 +63,7 @@ const PortfolioData =[
         demo :'https://stupid-blog.onrender.com/'
     },
     {
-        id:6,
+        id:7,
         image:TicTacToe,
         title:"Tic Tac Toe",
         desc:'Made using react app contains history of moves',
@@ -62,7 +72,7 @@ const PortfolioData =[
     }
 ,
     {
-        id:7,
+        id:8,
         image:Nasa,
         title:"Media of the day",
         desc:'App connecting to NASA API to show media of day',
@@ -71,7 +81,7 @@ const PortfolioData =[
     },
 
     {
-        id:8,
+        id:9,
         image:Conference,
         title:"Conference",
         desc:'Conference app containing multiple pages',
@@ -80,7 +90,7 @@ const PortfolioData =[
     },
 
     {
-        id:9,
+        id:10,
         image:Gallery,
         title:"Galeria",
         desc:'A gallery app demonstrating use of flexbox',
@@ -89,7 +99,7 @@ const PortfolioData =[
     },
 
     {
-        id:10,
+        id:11,
         image:Clock,
         title:"Clock",
         desc:'A clock with dyanamic backgrounds for each refresh',
@@ -98,7 +108,7 @@ const PortfolioData =[
     },
 
     {
-        id:11,
+        id:12,
         image:Parallax,
         title:"Photography",
         desc:'Photography app having parallax effect',
@@ -106,7 +116,7 @@ const PortfolioData =[
         demo :'https://sahil-photography.netlify.app/'
     },
     {
-        id:12,
+        id:13,
         image:Quiz,
         title:"Barca Quiz",
         desc:'JavaScript quiz which calculates score once submitted',
