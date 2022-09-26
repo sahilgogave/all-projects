@@ -50,11 +50,11 @@ const Portfolio = () => {
       <span className="section__subtitle">Portfolio</span>
 
       <div className="portfolio__container container grid">
-        {PortfolioData.map(({ id, image, title, desc, github, demo }) => {
+        {PortfolioData.map(({ id, image, title, desc, github, demo, alt }) => {
           return (
             <article className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt="" className="project__img" />
+                <img src={image} alt={alt} className="project__img" />
               </div>
               <h3>{title}</h3>
               <span className="portfolio__subtitle">{desc}</span>
