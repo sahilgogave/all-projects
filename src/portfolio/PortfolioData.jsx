@@ -11,6 +11,7 @@ import StupidBlog from '../assets/stupidblog.png'
 import TicTacToe from '../assets/tictactoe.png'
 import Clock from '../assets/clock.png'
 import TODO from '../assets/todo.png'
+import Traffic from '../assets/traffic.png'
 
 
 const PortfolioData =[
@@ -25,15 +26,24 @@ const PortfolioData =[
     },
     {
         id:2,
+        image:Traffic,
+        title:"Traffic Managemet",
+        alt:"Traffic Managemet System",
+        desc:'Weather app showing live weather for given city.',
+        github :'https://github.com/sahilgogave/traffic-management-system',
+        demo :'https://www.ijert.org/traffic-control-system-and-technologies-a-survey'
+    },
+    {
+        id:3,
         image:NoteIt,
         title:"Note-It",
         alt:"Note-It",
-        desc:'Made using React it has add,edit,delete functionality.',
+        desc:'Desktop note taking app made using React',
         github :'https://github.com/sahilgogave/Note-It',
         demo :'https://note-it.onrender.com/'
     },
     {
-        id:3,
+        id:4,
         image:MemoryGame,
         title:"Memory Game",
         alt:"Memory Game",

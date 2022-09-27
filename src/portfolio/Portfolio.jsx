@@ -48,7 +48,13 @@ const Portfolio = () => {
     <section className="portfolio section" id="portfolio">
       <h2 className="section__title">My Projects</h2>
       <span className="section__subtitle">Portfolio</span>
-
+      <span className="section__subtitle view__more"><a
+                  href="https://sahilgogave.com"
+                  className="button button--flex btn-primary"
+                  target="_blank"
+                >
+                  Home
+                </a></span>
       <div className="portfolio__container container grid">
         {PortfolioData.map(({ id, image, title, desc, github, demo, alt }) => {
           return (
