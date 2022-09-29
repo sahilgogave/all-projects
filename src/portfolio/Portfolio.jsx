@@ -49,7 +49,7 @@ const Portfolio = () => {
       <h2 className="section__title">My Projects</h2>
       <span className="section__subtitle">Portfolio</span>
       <span className="section__subtitle view__more"><a
-                  href="https://sahilgogave.com"
+                  href="https://sahilg.dev"
                   className="button button--flex btn-primary"
                   target="_blank"
                 >
