@@ -51,7 +51,7 @@ const Portfolio = () => {
       <span className="section__subtitle view__more"><a
                   href="https://sahilg.dev"
                   className="button button--flex btn-primary"
-                  target="_blank"
+                  target="_self"
                 >
                   Home
                 </a></span>
