@@ -12,6 +12,8 @@ import TicTacToe from '../assets/tictactoe.png'
 import Clock from '../assets/clock.png'
 import TODO from '../assets/todo.png'
 import Traffic from '../assets/traffic.png'
+import Farewellcard from '../assets/farewellcards.png'
+
 
 
 const PortfolioData =[
@@ -26,6 +28,15 @@ const PortfolioData =[
     },
     {
         id:2,
+        image:Farewellcard,
+        title:"Farewell Cards",
+        alt:"Farewell Cards",
+        desc:'A site made to bid farewell to capgemini',
+        github :'https://github.com/sahilgogave/sahil-signingoff',
+        demo :'https://sahil-signingoff.vercel.app/'
+    },
+    {
+        id:3,
         image:Traffic,
         title:"Traffic Managemet",
         alt:"Traffic Managemet System",
@@ -34,7 +45,7 @@ const PortfolioData =[
         demo :'https://www.ijert.org/traffic-control-system-and-technologies-a-survey'
     },
     {
-        id:3,
+        id:4,
         image:NoteIt,
         title:"Note-It",
         alt:"Note-It",
@@ -43,7 +54,7 @@ const PortfolioData =[
         demo :'https://note-it.onrender.com/'
     },
     {
-        id:4,
+        id:5,
         image:MemoryGame,
         title:"Memory Game",
         alt:"Memory Game",
@@ -61,7 +72,7 @@ const PortfolioData =[
     //     demo :'https://sahilgogave.onrender.com/'
     // },
     {
-        id:5,
+        id:6,
         image:TODO,
         title:"A To Do List",
         alt:"A To Do List",
@@ -70,7 +81,7 @@ const PortfolioData =[
         demo :'https://sahilgogave.github.io/ToDoList/'
     },
     {
-        id:6,
+        id:7,
         image:StupidBlog,
         title:"Stupid Blog",
         alt:"Stupid Blog",
@@ -79,7 +90,7 @@ const PortfolioData =[
         demo :'https://stupid-blog.onrender.com/'
     },
     {
-        id:7,
+        id:8,
         image:TicTacToe,
         title:"Tic Tac Toe",
         alt:"Tic Tac Toe",
@@ -89,7 +100,7 @@ const PortfolioData =[
     }
 ,
     {
-        id:8,
+        id:9,
         image:Nasa,
         title:"Media of the day",
         alt:"Media of the day",
@@ -99,7 +110,7 @@ const PortfolioData =[
     },
 
     {
-        id:9,
+        id:10,
         image:Conference,
         title:"Conference",
         alt:"Conference",
@@ -109,7 +120,7 @@ const PortfolioData =[
     },
 
     {
-        id:10,
+        id:11,
         image:Gallery,
         title:"Galeria",
         alt:"Galeria",
@@ -119,7 +130,7 @@ const PortfolioData =[
     },
 
     {
-        id:11,
+        id:12,
         image:Clock,
         title:"Clock",
         alt:"Clock",
@@ -129,7 +140,7 @@ const PortfolioData =[
     },
 
     {
-        id:12,
+        id:13,
         image:Parallax,
         title:"Photography",
         alt:"Photography",
@@ -138,7 +149,7 @@ const PortfolioData =[
         demo :'https://sahil-photography.netlify.app/'
     },
     {
-        id:13,
+        id:14,
         image:Quiz,
         title:"Barca Quiz",
         alt:"Barca Quiz",
